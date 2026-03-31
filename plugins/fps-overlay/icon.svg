@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="16" fill="#10151c"/>
+  <path d="M22 26h84v20H22z" fill="#1e2936"/>
+  <text x="64" y="42" text-anchor="middle" font-size="14" fill="#a6ffd1">FPS</text>
+  <text x="64" y="84" text-anchor="middle" font-size="36" fill="#7ef9a9">60</text>
+</svg>
