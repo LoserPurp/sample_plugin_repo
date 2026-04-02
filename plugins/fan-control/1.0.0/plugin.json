@@ -1,6 +1,0 @@
-{
-  "name": "Fan Control",
-  "slug": "fan-control",
-  "version": "1.0.0",
-  "entrypoint": "main.py"
-}

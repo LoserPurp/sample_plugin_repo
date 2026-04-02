@@ -1,6 +1,0 @@
-{
-  "name": "FPS Overlay",
-  "slug": "fps-overlay",
-  "version": "1.1.0",
-  "entrypoint": "main.py"
-}

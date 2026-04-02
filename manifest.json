@@ -8,6 +8,7 @@
       "category": "performance",
       "summary": "Shows FPS and frametime as a compact overlay.",
       "author": "demo-author",
+      "latest": "1.1.0",
       "icon_path": "plugins/fps-overlay/icon.svg",
       "compatible_pydeck_versions": ["1.0", "1.1", "1.2"],
       "versions": [
@@ -31,6 +32,7 @@
       "category": "system",
       "summary": "Manual fan curve presets for battery and docked modes.",
       "author": "demo-author",
+      "latest": "1.0.0",
       "icon_path": "plugins/fan-control/icon.svg",
       "compatible_pydeck_versions": ["1.1", "1.2"],
       "versions": [
@@ -43,7 +45,7 @@
         {
           "version": "1.0.0",
           "path": "plugins/fan-control/1.0.0",
-          "min_pydeck_version": "1.2.0",
+          "min_pydeck_version": "1.0.0",
           "max_pydeck_version": null
         }
       ]

@@ -1,0 +1,25 @@
+{
+  "name": "Fan Control",
+  "version": "1.0.0",
+  "description": "Control fan profile presets for handheld and docked modes.",
+  "author": "demo-author",
+  "credentials": [],
+  "permissions": {
+    "json": ["loads", "dumps"],
+    "pathlib": ["Path"]
+  },
+  "functions": {
+    "profile": {
+      "label": "Fan Profile",
+      "description": "Apply selected fan curve profile",
+      "default_display": {
+        "color": "#5b3a29",
+        "text": "FAN"
+      }
+    }
+  },
+  "slug": "fan-control",
+  "entrypoint": "main.py",
+  "python_dependencies": [],
+  "post_install_script": null
+}

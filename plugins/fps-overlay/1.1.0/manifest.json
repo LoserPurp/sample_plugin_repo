@@ -1,0 +1,26 @@
+{
+  "name": "FPS Overlay",
+  "version": "1.1.0",
+  "description": "Show FPS and frametime from a compact deck overlay.",
+  "author": "demo-author",
+  "credentials": [],
+  "permissions": {
+    "json": ["loads", "dumps"],
+    "pathlib": ["Path"],
+    "psutil": ["cpu_percent"]
+  },
+  "functions": {
+    "display": {
+      "label": "FPS Display",
+      "description": "Show current FPS value on key display",
+      "default_display": {
+        "color": "#1f2937",
+        "text": "FPS"
+      }
+    }
+  },
+  "slug": "fps-overlay",
+  "entrypoint": "main.py",
+  "python_dependencies": ["psutil>=5.9.0"],
+  "post_install_script": "scripts/post_install.sh"
+}
